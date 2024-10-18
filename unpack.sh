@@ -17,7 +17,7 @@ if [ -z "$1" ]; then
   exit 1
 fi
 #Patterns
-sqfs_pattern='hsqs';oldver_pattern='\x977\x00\x00\x00';fdt_pattern='\xD0\r\xFE\xED';kernel_kfst='IKCFG_ST';kernel_kfed='IKCFG_ED'
+sqfs_pattern='hsqs';oldver_pattern='7\x00\x00\x00';fdt_pattern='\xD0\r\xFE\xED';kernel_kfst='IKCFG_ST';kernel_kfed='IKCFG_ED'
 tr_clean="'/\-<>{};/\t\"\"\#'"
 ############################FDT##################################
 total_bytes=$(wc -c < "$source_file")
