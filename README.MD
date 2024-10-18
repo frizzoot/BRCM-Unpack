@@ -7,6 +7,7 @@ This bash script is used to assist with the unpacking of a Broadcom firmware upd
 Tested on Ubuntu 24.04 with firmware for a NOKIA BGW320-505 Residential Gateway.
 
 **This script should work with all firmware versions as of writing.**
+
 *Fixed issue with old version pattern Oct 18 24.
 
 **The SquashFS is encrypted on current versions.**
